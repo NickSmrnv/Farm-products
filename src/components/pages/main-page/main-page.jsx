@@ -1,5 +1,11 @@
+import About from "../../blocks/about/about"
+
 function MainPage() {
-  return <></>;
+  return (
+    <>
+      <About />
+    </>
+  );
 }
 
 export default MainPage;
