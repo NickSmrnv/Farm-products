@@ -1,0 +1,13 @@
+.logo__link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo__text {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 115%;
+}
