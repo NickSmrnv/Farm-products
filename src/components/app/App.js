@@ -1,7 +1,8 @@
+import PageWrapper from "../layout/page-wrapper/page-wrapper";
+import "./style.css";
+
 function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
+  return <PageWrapper />
 }
 
 export default App;
