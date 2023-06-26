@@ -1,9 +1,11 @@
-import About from "../../blocks/about/about"
+import About from "../../blocks/about/about";
+import Benefits from "../../blocks/benefits/benefits";
 
-function MainPage() {
+function MainPage({ benefits }) {
   return (
     <>
       <About />
+      <Benefits benefits={benefits}/>
     </>
   );
 }
