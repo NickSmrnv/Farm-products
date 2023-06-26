@@ -1,0 +1,44 @@
+.about {
+  position: relative;
+  background-color: #D8ECFE;
+  z-index: -4;
+}
+
+.about::after {
+  position: absolute;
+  content: "";
+  width: 446px;
+  height: 447px;
+  border-radius: 50%;
+  background-color: #C4E2FF;
+  top: 76px;
+  right: 90px;
+  z-index: -3;
+}
+
+.about::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../../assets/human.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 273px;
+  height: 546px;
+  right: 177px;
+  bottom: 0;
+  z-index: -2;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 193px 90px;
+  width: 637px;
+}
+
+.about__text {
+  margin: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding-right: 99px;
+}
