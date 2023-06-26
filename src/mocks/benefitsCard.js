@@ -1,9 +1,11 @@
+import img1 from "./../assets/eat.png"
+
 const benefitsCard = [
   {
     id: 0,
     name: "Еда намного вкуснее",
     description: "Домашняя колбаса из мяса, соли и специй и колбаса из магазина — два настолько разных продукта, что они даже не родственники",
-    image: "../assets/eat.svg",
+    image: img1,
     feature: "farm"
   },
   {

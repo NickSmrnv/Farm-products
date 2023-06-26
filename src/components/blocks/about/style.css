@@ -1,7 +1,7 @@
 .about {
   position: relative;
-  max-width: 1280px;
   background-color: #D8ECFE;
+  z-index: -4;
 }
 
 .about::after {
@@ -13,6 +13,7 @@
   background-color: #C4E2FF;
   top: 76px;
   right: 90px;
+  z-index: -3;
 }
 
 .about::before {
@@ -25,7 +26,7 @@
   height: 546px;
   right: 177px;
   bottom: 0;
-  z-index: 2;
+  z-index: -2;
 }
 
 .about__wrapper {
