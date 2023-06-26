@@ -1,0 +1,16 @@
+.benefits {
+  padding-top: 100px;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
